@@ -12,6 +12,7 @@ this is V6 ed, _lightly_ modified to:
 10. use sizeof(buf) instead of buf
 11. renamed putchar() to putc() because gcc and clang generate errors if you create a function called putchar() with a different signature.
 12. added a prototype for errfunc() because clang refuses to honor `-ansi`
+13. use a more modern error message (🖕).
 
 I've tried to keep these modifications as minimal as possible in an effort to preserve
 the editor that I learned unix on.

@@ -484,7 +484,7 @@ void errfunc(void)
 	register c;
 
 	listf = 0;
-	puts("?");
+	puts("🖕");
 	count[0] = 0;
 	lseek(0, 0, SEEK_END);
 	pflag = 0;
